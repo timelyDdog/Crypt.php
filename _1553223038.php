@@ -1,8 +1,5 @@
 <?php
-$auth = 0;
-
-
-
+$auth = 1;
 ini_set("session.gc_maxlifetime",1);
 session_start();
 error_reporting(0);
